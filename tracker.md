@@ -10,31 +10,31 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` done · `[!]` blocked
 - [x] **T-04** — Verify football-data.org token + fixture data shape (104 matches confirmed)
 
 ## Phase 2 — Database (Supabase)
-- [ ] **T-05** — `supabase/schema.sql`: tables (players, matches, predictions, bonus_picks, bonus_results)
-- [ ] **T-06** — Scoring views (`match_points`, `leaderboard`) implementing I4
-- [ ] **T-07** — RLS policies implementing I2/I3 + RPCs (`save_pick`, `my_picks`, `save_bonus`, `my_bonus`)
-- [ ] **T-08** — Seed 9 players
-- [ ] **T-09** — Apply schema in Supabase SQL editor `depends on: T-05..T-08, USER ACTION`
+- [x] **T-05** — `supabase/schema.sql`: tables (players, matches, predictions, bonus_picks, bonus_results)
+- [x] **T-06** — Scoring views (`match_points`, `leaderboard`) implementing I4
+- [x] **T-07** — RLS policies implementing I2/I3 + RPCs (`save_pick`, `my_picks`, `save_bonus`, `my_bonus`)
+- [x] **T-08** — Seed 9 players
+- [x] **T-09** — Apply schema in Supabase SQL editor `depends on: T-05..T-08, USER ACTION`
 
 ## Phase 3 — Sync (GitHub Actions)
-- [ ] **T-10** — `sync/sync.mjs`: fetch WC matches → 90-min scores → upsert to Supabase (I5, C7)
-- [ ] **T-11** — `.github/workflows/sync.yml`: cron */30 with tournament-window guard
-- [ ] **T-12** — Initial sync run to populate all 104 matches `depends on: T-09`
+- [x] **T-10** — `sync/sync.mjs`: fetch WC matches → 90-min scores → upsert to Supabase (I5, C7)
+- [x] **T-11** — `.github/workflows/sync.yml`: cron */30 with tournament-window guard
+- [x] **T-12** — Initial sync run to populate all 104 matches `depends on: T-09`
 
 ## Phase 4 — Frontend (Vite + TS, GitHub Pages)
-- [ ] **T-13** — Scaffold (package.json, tsconfig, vite config, zero runtime deps)
-- [ ] **T-14** — Name picker (localStorage) + tab shell (Leaderboard / Fixtures / Bonus / Rules)
-- [ ] **T-15** — Fixtures & picks UI: grouped by day, score inputs, save via RPC, lock at kickoff, reveal all picks + points after kickoff (C1–C4)
-- [ ] **T-16** — Leaderboard: points, exacts, localStorage movement arrows, wooden spoon
-- [ ] **T-17** — Bonus picks UI (champion, golden boot, Bafana stage) with 28/06 lock
-- [ ] **T-18** — Rules tab rendering SPEC §8
-- [ ] **T-19** — WC26 styling: tri-host gradient, flags/crests, mobile-first cards; note SD-01 honesty line in Rules
-- [ ] **T-20** — `.github/workflows/deploy.yml`: build → GitHub Pages
+- [x] **T-13** — Scaffold (package.json, tsconfig, vite config, zero runtime deps)
+- [x] **T-14** — Name picker (localStorage) + tab shell (Leaderboard / Fixtures / Bonus / Rules)
+- [x] **T-15** — Fixtures & picks UI: grouped by day, score inputs, save via RPC, lock at kickoff, reveal all picks + points after kickoff (C1–C4)
+- [x] **T-16** — Leaderboard: points, exacts, localStorage movement arrows, wooden spoon
+- [x] **T-17** — Bonus picks UI (champion, golden boot, Bafana stage) with 28/06 lock
+- [x] **T-18** — Rules tab rendering SPEC §8
+- [x] **T-19** — WC26 styling: tri-host gradient, flags/crests, mobile-first cards; note SD-01 honesty line in Rules
+- [x] **T-20** — `.github/workflows/deploy.yml`: build → GitHub Pages
 
 ## Phase 5 — Launch
-- [ ] **T-21** — Create GitHub repo (konfytbekkie), push, set Actions secrets, enable Pages
-- [ ] **T-22** — End-to-end verify: save pick via UI, confirm RLS lock behaviour, leaderboard renders
-- [ ] **T-23** — WhatsApp launch message drafted (`launch-message.md`) — includes backfill plan for matchday-1 picks
+- [x] **T-21** — Create GitHub repo (konfytbekkie), push, set Actions secrets, enable Pages
+- [x] **T-22** — End-to-end verify: save pick via UI, confirm RLS lock behaviour, leaderboard renders
+- [x] **T-23** — WhatsApp launch message drafted (`launch-message.md`) — includes backfill plan for matchday-1 picks
 - [ ] **T-24** — Backfill matchday-1 picks collected on WhatsApp `depends on: USER input`
 
 ## Post-tournament
