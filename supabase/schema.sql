@@ -119,6 +119,9 @@ select
 from players pl
 left join mp on mp.player_id = pl.id
 left join bp on bp.player_id = pl.id
+-- only players who are actually playing: at least one pick (match or bonus)
+where exists (select 1 from predictions pr where pr.player_id = pl.id)
+   or exists (select 1 from bonus_picks bo where bo.player_id = pl.id)
 order by points desc, exacts desc, outcomes desc, pl.name;
 
 -- ---------------------------------------------------------------- RLS (I2, I3)
