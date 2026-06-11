@@ -1,6 +1,6 @@
 # WhatsApp launch message (copy-paste)
 
-⚽🏆 *DCX PREDICTOR — World Cup 2026* 🏆⚽
+⚽🏆 *SQUAD GOALS FC — World Cup 2026* 🏆⚽
 
 The World Cup started today, so we're running an office pool. No money, just glory (and a wooden spoon 🥄).
 
@@ -22,4 +22,4 @@ May the best pundit win 😤
 
 # Daily reminder template (optional, copy-paste any morning)
 
-⚽ *DCX Predictor* — today's games: [teams + SAST times]. Picks lock at kickoff! [link]
+⚽ *Squad Goals FC* — today's games: [teams + SAST times]. Picks lock at kickoff! [link]

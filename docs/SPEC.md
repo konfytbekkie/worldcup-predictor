@@ -1,4 +1,4 @@
-# DCX Predictor — Specification (Source of Truth)
+# Squad Goals FC — Specification (Source of Truth)
 
 **Owner:** Marthelize Tredoux · **Created:** 11/06/2026 · **Status:** v1, shipping day one of WC2026
 

@@ -1,4 +1,4 @@
-# DCX Predictor — World Cup 2026 office pool
+# Squad Goals FC — World Cup 2026 pool
 
 Self-running prediction pool for the Datacentrix core team. Exact-score predictions for
 all 104 matches, bonus picks, automatic results and scoring, kudos only.

@@ -1,4 +1,4 @@
-# Security Posture — DCX Predictor
+# Security Posture — Squad Goals FC
 
 **Standard level:** Low (internal fun project, kudos stakes, minimal PII: first names only)
 **Current phase:** Production (static site + managed Supabase), day-one ship

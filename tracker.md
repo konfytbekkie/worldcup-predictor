@@ -1,4 +1,4 @@
-# Execution Tracker — DCX Predictor
+# Execution Tracker — Squad Goals FC
 
 Single source of truth for progress. Every session reads this first.
 Status: `[ ]` pending · `[~]` in progress · `[x]` done · `[!]` blocked

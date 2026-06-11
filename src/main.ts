@@ -168,8 +168,8 @@ function render() {
   app.innerHTML = `
     <header>
       <div class="header-inner">
-        <h1>DCX <span class="accent">PREDICTOR</span></h1>
-        <div class="sub">FIFA World Cup 2026 · office pool</div>
+        <h1>SQUAD <span class="accent">GOALS FC</span></h1>
+        <div class="sub">FIFA World Cup 2026</div>
         ${state.me ? `<button class="player-chip" data-action="switch-player">⚽ ${esc(state.me.name)} <small>switch</small></button>` : ''}
       </div>
       <div class="tri-bar"></div>
