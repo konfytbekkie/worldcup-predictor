@@ -35,7 +35,7 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` done · `[!]` blocked
 - [x] **T-21** — Create GitHub repo (konfytbekkie), push, set Actions secrets, enable Pages
 - [x] **T-22** — End-to-end verify: save pick via UI, confirm RLS lock behaviour, leaderboard renders
 - [x] **T-23** — WhatsApp launch message drafted (`launch-message.md`) — includes backfill plan for matchday-1 picks
-- [ ] **T-24** — Backfill matchday-1 picks collected on WhatsApp `depends on: USER input`
+- [x] **T-24** — Backfill matchday-1 picks: 5 loaded (MT, Garsen, Lewella, Magonna, Thulani). Grace period closed — policy: no pick = 0 points, no defaults.
 
 ## Post-tournament
 - [ ] **T-25** — Fill `bonus_results` after the final (19/07/2026)
@@ -47,3 +47,5 @@ Status: `[ ]` pending · `[~]` in progress · `[x]` done · `[!]` blocked
 |---|---|---|
 | 11/06/2026 | football-data v4: knockout teams are `null` until decided; statuses TIMED/IN_PLAY/PAUSED/FINISHED; `regularTime` only present when ET occurred | T-10, T-15 |
 | 11/06/2026 | Only 1 fixture on 11/06 UTC (MEX–RSA 19:00Z); KOR–CZE is 04:00Z on 12/06 | T-23 |
+| 11/06/2026 | Renamed to Squad Goals FC; Claude Design retro sticker-album theme applied (CSS-only + font links; crest object-fit fixed to contain) | T-19 |
+| 11/06/2026 | Leaderboard view filtered to players with ≥1 pick (match or bonus) — never-starters hidden until first pick | T-06 |
